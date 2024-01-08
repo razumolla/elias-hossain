@@ -19,30 +19,26 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        Hello, I'm Elias Hossain, a passionate Civil Engineer with a knack for
+        effective Project Management in building construction. With 3 years of
+        hands-on experience, I have successfully led projects, including the
+        Steel Foot Over Bridge around Dhaka City and Menhaz City in Palashbari,
+        Gaibandha. I thrive in challenging environments and am dedicated to
+        upholding company objectives.
       </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+      <p className="mb-3">
+        In my current role as a Project Engineer at Creative Architecture and
+        Engineers since February 2020, I've demonstrated my skills in overseeing
+        diverse projects, such as the Image Polyethnic Institute in Rangpur and
+        Molla Tower in Palashbari, Gaibandha. My educational background includes
+        a B.Sc. in Civil Engineering from the World University of Bangladesh,
+        where I graduated with a CGPA of 3.39 out of 4.00 in 2023.
+      </p>
+      <p className="mb-3">
+        During a 3-month industrial attachment at Project Solution, I delved
+        into Basic Design and Estimating Costing, enhancing my skills and
+        knowledge.
       </p>
     </motion.section>
   );

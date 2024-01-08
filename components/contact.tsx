@@ -29,17 +29,21 @@ export default function Contact() {
         once: true,
       }}
     >
-      <SectionHeading>Contact me</SectionHeading>
+      <SectionHeading>Contact me directly</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Please contact me directly at{" "}
-        <a className="underline" href="mailto:example@gmail.com">
-          example@gmail.com
+        {/* Please contact me directly{" "} */}
+        {/* <a className="underline" href="mailto:example@gmail.com">
+          ce.eliashossain@gmail.com
         </a>{" "}
-        or through this form.
+         */}
       </p>
+      <div className="mt-10">
+        <p>Email: ce.eliashossain@gmail.com </p>
+        <p>Phone: +8801645569474 </p>
+      </div>
 
-      <form
+      {/* <form
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
           const { data, error } = await sendEmail(formData);
@@ -68,7 +72,7 @@ export default function Contact() {
           maxLength={5000}
         />
         <SubmitBtn />
-      </form>
+      </form> */}
     </motion.section>
   );
 }
